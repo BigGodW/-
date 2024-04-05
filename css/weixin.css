@@ -1,0 +1,97 @@
+@media screen and (max-width:800px){
+/* 登录页     */
+    div.desc,div.tab-list{
+        display: none !important;
+    }
+    div.login-bg .platform-info{
+        padding: 0px;
+        bottom: 300px;
+        width: 100vh;
+    }
+    #app div.login-content{
+        margin: 20px;
+    }
+/* 直播页 */
+    #side-bar{
+        display: none;
+    }
+    div.container-center{
+        padding: 0px ;
+    }
+    div.app-body .container-wrap .container-center{
+        padding: 0px;
+        min-width: initial;
+        width: 100%;
+    }
+    .app-body.fold-sidebar #container-wrap{
+        width: 100%;
+    }
+    /* 直播标题 */
+    #app div.main-body-title{
+        display: none ;
+    }
+    div.main-body{
+        margin-top: 0px;
+    }
+    section#footer{
+        display: none;
+    }
+    div.app-body .container-wrap{
+        position: initial;
+    }
+    /* 不需要的节点 */
+    .container-center div.live-realtime-title,
+    .test-live-tips,
+    /* 直播视频框 */
+    .live-player-container,
+    .live-basic-info,
+    div.live-realtime-container .finder-card .card-body .live-realtime-data .dashboard-entry[data-v-78085b0f]
+    {
+        display: none !important;
+    }
+    /* 调整边距 */
+    .container-center div.live-realtime-container,
+    div.finder-card.live-stream-info,
+    div.live-realtime-container .finder-card,
+    div.live-realtime-container .finder-card .card-body .live-realtime-data,
+    div.live-realtime-container .live-realtime-interactive-part[data-v-78085b0f],
+    div.live-realtime-container .live-realtime-interactive-part[data-v-78085b0f] .live-card-container
+    {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    div.live-realtime-container .live-top-card{
+        min-height: initial !important;
+    }
+    /* 直播数据 */
+    div.live-data-item[data-v-74603fb0]{
+        width: 100%;
+        height: initial;
+        margin: 0;
+        padding: 0px 10px;
+        background-color: initial;
+    }
+    .live-realtime-container .finder-card .card-body .live-realtime-data[data-v-78085b0f]{
+        justify-content: center;
+        background-color: rgb(208, 209, 211);
+    }
+    div.live-card-container:nth-child(1),
+    div.live-card-container:nth-child(2)
+    {
+        display: none ;
+    }
+    /* 弹幕框 */
+    div.live-message-container[data-v-2e776bc0],
+    div.live-card-container[data-v-7802e969]
+    {
+        min-height: initial;
+    }
+/* 直播结束 */
+div.live-basic-info-card .live-user-range-tip-wrap{
+    display: none;
+}
+div.live-basic-info-card .submit-button-row{
+    right: 56px;
+}
+
+}

@@ -1,0 +1,90 @@
+@media screen and (max-width: 500px) {
+  /* 登录页     */
+  div.CbtbGIUX4qIaip9IY2Sb {
+    flex-direction: row-reverse;
+  }
+  .UqM2VqEDB3qdOFvSOHAB .fKC_H_KYcznw5DdQcVgw {
+    width: initial;
+  }
+  div.CbtbGIUX4qIaip9IY2Sb {
+    width: initial;
+  }
+  div.tXaID040THCALG9LfQ8z {
+    display: none;
+  }
+  /* 直播助手 */
+  header.ant-layout-header.header--VGq1u,
+  div.container--Ybdw_,
+  #kpro-tool-box-tools-containner,
+  div.conatiner--WdvbV,
+  div.planinfo--BWHWc,
+  div.container-item--FXFbT:nth-child(5),
+  div.container-item--FXFbT:nth-child(6),
+  div.container-item--FXFbT:nth-child(7)
+
+   {
+    display: none;
+  }
+  .ant-layout-content.main--znBqD > div {
+    justify-content: left !important;
+  }
+  div.empty-container {
+    min-height: 500px !important;
+    height: calc(100vh-70px) !important;
+  }
+  section.ant-layout.container--krNU5{
+    min-width: initial;
+  }
+  .layout--XS67m .container--krNU5 .main--znBqD {
+    margin: 0px !important;
+  }
+  div.container--YqRfb {
+    display: block;
+  }
+  div.container-item--FXFbT{
+    
+
+  }
+  /* 弹幕框 */
+  div.container-item--FXFbT:nth-child(4){
+    margin-top: 70px;
+  }
+  main.ant-layout-content.main--znBqD>div{
+    display: block !important;
+  }
+  /* 直播间信息框 */
+  div.index-module__titleRow___9mXFF,
+  div.index-module__promorionEntryWrapper___ECVwO,
+  div.index-module__header___FDmQD
+  {
+    display: none !important;
+  }
+  div.container-item--FXFbT:nth-child(8){
+    position: fixed;
+    top: 10px;
+    left: 50% ;
+    transform: translate(-50%,0);
+  }
+  div.index-module__followerAssistantContainer___B58pA{
+    padding: 0px 10px;
+  }
+  div.index-module__dataBlockWrapper___Ipkjx .index-module__body___33Q2h{
+    flex-wrap: nowrap;
+  }
+  div.index-module__dataBlockWrapper___Ipkjx .index-module__body___33Q2h .index-module__item___Hqa3u{
+     padding: 0px;
+     background-color: initial;
+     min-width: initial;
+  }
+  /* 隐藏直播间信息 */
+  div.index-module__item___Hqa3u:nth-child(2),
+  div.index-module__item___Hqa3u:nth-child(4),
+  div.index-module__item___Hqa3u:nth-child(5),
+  div.index-module__item___Hqa3u:nth-child(8)
+  {
+    display: none;
+  }
+
+
+
+}

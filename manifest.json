@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "直播插件",
+    "description": "直播弹幕汇总",
+    "version": "1.0",
+    "action": {
+      "default_icon": "logo.png"
+    },
+    "content_scripts":[
+        {
+            "matches":["https://fxg.jinritemai.com/login/*","https://fxg.jinritemai.com/ffa/live_control/live/*"],
+            "css":["css/douyin.css"],
+            "all_frames":true
+        },
+        {
+            "matches":["https://channels.weixin.qq.com/login*","https://channels.weixin.qq.com/platform/live/*"],
+            "css":["css/weixin.css"],
+            "all_frames":true
+        }, 
+        {
+            "matches":["https://login.kwaixiaodian.com/*","https://zs.kwaixiaodian.com/page/helper*"],
+            "css":["css/kuaishou.css"],
+            "all_frames":true
+        }
+    ]
+  }
