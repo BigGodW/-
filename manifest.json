@@ -4,7 +4,8 @@
     "description": "直播弹幕汇总 抖音 快手 微信视频号",
     "version": "1.0",
     "action": {
-      "default_icon": "logo/logo-128.png"
+      "default_icon": "logo/logo-128.png",
+      "default_popup":"README.html"
     },
     "content_scripts":[
         {
