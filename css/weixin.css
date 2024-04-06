@@ -1,6 +1,11 @@
 @media screen and (max-width:800px){
 /* 登录页     */
-    div.desc,div.tab-list{
+    div.desc,
+    div.tab-list,
+    .content,
+    .footer-wrap,
+    .login-bg video
+    {
         display: none !important;
     }
     div.login-bg .platform-info{

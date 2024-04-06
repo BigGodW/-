@@ -1,10 +1,10 @@
 {
     "manifest_version": 3,
     "name": "直播插件",
-    "description": "直播弹幕汇总",
+    "description": "直播弹幕汇总 抖音 快手 微信视频号",
     "version": "1.0",
     "action": {
-      "default_icon": "logo.png"
+      "default_icon": "logo/logo-128.png"
     },
     "content_scripts":[
         {
@@ -22,5 +22,9 @@
             "css":["css/kuaishou.css"],
             "all_frames":true
         }
-    ]
+    ],
+    "icons":{
+        "128":"logo/logo-128.png",
+        "32":"logo/logo-32.png"
+    }
   }
