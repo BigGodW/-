@@ -16,7 +16,6 @@
   header.ant-layout-header.header--VGq1u,
   div.container--Ybdw_,
   #kpro-tool-box-tools-containner,
-  div.conatiner--WdvbV,
   div.planinfo--BWHWc,
   div.container-item--FXFbT:nth-child(5),
   div.container-item--FXFbT:nth-child(6),
@@ -40,17 +39,28 @@
   }
   div.container--YqRfb {
     display: block;
+    background-color: white;
   }
-  div.container-item--FXFbT{
-    
-
-  }
+  
   /* 弹幕框 */
-  div.container-item--FXFbT:nth-child(4){
-    margin-top: 70px;
-  }
   main.ant-layout-content.main--znBqD>div{
     display: block !important;
+  }
+  div.live-panel--NqbCt{
+    padding: 0 20px !important;
+  }
+  div.text-input--SiBdO input::placeholder{
+    color: white ;
+    font-weight: 800;
+    font-size: 17px;
+  }
+  /* 弹幕框容器大小 */
+  div.public-list-wrap--X0GUj{
+    height: 500px !important;
+  }
+  /* 弹幕字体调整 */
+  div.comment-items--Og8xq{
+    font-size: 17px;
   }
   /* 直播间信息框 */
   div.index-module__titleRow___9mXFF,
@@ -59,14 +69,8 @@
   {
     display: none !important;
   }
-  div.container-item--FXFbT:nth-child(8){
-    position: fixed;
-    top: 10px;
-    left: 50% ;
-    transform: translate(-50%,0);
-  }
   div.index-module__followerAssistantContainer___B58pA{
-    padding: 0px 10px;
+    display: none;
   }
   div.index-module__dataBlockWrapper___Ipkjx .index-module__body___33Q2h{
     flex-wrap: nowrap;
@@ -76,15 +80,38 @@
      background-color: initial;
      min-width: initial;
   }
-  /* 隐藏直播间信息 */
-  div.index-module__item___Hqa3u:nth-child(2),
-  div.index-module__item___Hqa3u:nth-child(4),
-  div.index-module__item___Hqa3u:nth-child(5),
-  div.index-module__item___Hqa3u:nth-child(8)
-  {
-    display: none;
+  /* 直播数据调整 */
+  div.conatiner--WdvbV{
+    padding: 0 20px;
   }
-
+  div.info--Ie0nx>div:nth-child(2),
+  div.hand--J2v3B.right--TFruT,
+  .tip--cSIGE,
+  div.slick-track>.slick-slide:nth-child(2),
+  div.slick-track>.slick-slide:nth-child(3),
+  div.slick-track>.slick-slide:nth-child(6),
+  div.slick-track>.slick-slide:nth-child(7),
+  div.slick-track>.slick-slide:nth-child(8)
+  {
+    display: none !important;
+  }
+  div.slick-list div.slick-track{
+    display: flex;
+    width: 100% !important;
+  }
+  div.slick-track>.slick-slide{
+    flex: 1;
+  }
+  /* 消息发送框定位底部 */
+  div.reply-content--nJbZf{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+  }
+  div.reply-content--nJbZf .text-input--SiBdO{
+    background: #5c8fff;
+  }
 
 
 }

@@ -61,6 +61,7 @@
   div.index__liveControl___1C48H.index__doudian___3SFGL {
     margin: 0px;
     padding: 0px;
+    background-color: white;
   }
   div.style_container-responsive__3rYw_ .style_content-wrapper__3BVh3 {
     padding: 0px;
@@ -75,8 +76,19 @@
     width: inherit;
   }
   /* 不重要的数据 */
-  div.index__chart___sTe69 {
-    display: none;
+  div.index__chart___sTe69,
+  div.index__buttons___2LHlG,
+  div.index__dataItem___2s1JH:nth-child(4),
+  div.module-header.index__text___3CVXa,
+  div.index__trend___Hknfj,
+  div.index__items___E_iC2>div.index__accumulateItem___mhV2F:nth-child(3),
+  div.index__items___E_iC2>div.index__accumulateItem___mhV2F:nth-child(4),
+  .index__icon___2OdKu,.index__icon___2hs08
+  {
+    display: none !important;
+  }
+  div.index__accumulateItem___mhV2F{
+    padding: 5px;
   }
   /* 弹幕字体大小 */
   div.index-module__commentItem___2fLb5 {
@@ -85,6 +97,15 @@
   /* 弹幕框容器*/
   #app .index__liveControl___1C48H index__doudian___3SFGL .auxo-row {
     height: 100vh;
+  }
+  /* 弹幕显示区域 */
+  div.index-module__commentV2___1nWkl .index-module__commentList___2t44i{
+    height: 500px ;
+  }
+  div.index__content___3O3Oo,
+  div.index__container___77_eg
+  {
+    padding: 0 20px !important;
   }
   /* 弹幕框 */
   div.index__liveControl___1C48H .index__left___2wWOX{
@@ -96,5 +117,35 @@
   }
   div.index__liveInteraction___iPH2Z .index__content___3O3Oo {
     padding: 0px;
+  }
+  /* 输入框容器 */
+  div.index-module__inputWrapper___LZQaS{
+    position: fixed;
+    padding: 0px !important;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #5c8fff;
+
+  }
+  div.index-module__inputSection___2ZHoO .index-module__input___1nF6G .auxo-input{
+    height: 20px !important;
+  }
+  div.index-module__inputSection___2ZHoO .index-module__commentOperations___3GWAY{
+    padding-top: 4px;
+  }
+  .auxo-input-focused:not(.sp-null):not(.sp-null-1), .auxo-input-focused:not(.sp-null):not(.sp-null-1):hover, .auxo-input:focus:not(.sp-null):not(.sp-null-1), .auxo-input:focus:not(.sp-null):not(.sp-null-1):hover{
+    background-color: initial !important;
+  }
+  div.index-module__input___1nF6G textarea::placeholder{
+    color: white ;
+    font-weight: 800;
+    font-size: 17px;
+  }
+  
+  /* 自定义输入内容 */
+  .index-module__dropParent___Sl8YM .auxo-dropdown-menu,
+  .auxo-dropdown.index-module__dropParent___Sl8YM.auxo-dropdown-placement-bottomLeft.auxo-slide-up-enter.auxo-slide-up-enter-active.auxo-slide-up{
+    display: none;
   }
 }

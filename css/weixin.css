@@ -50,6 +50,7 @@
     /* 直播视频框 */
     .live-player-container,
     .live-basic-info,
+    div.weui-desktop-popover__wrp:nth-child(6),
     div.live-realtime-container .finder-card .card-body .live-realtime-data .dashboard-entry[data-v-78085b0f]
     {
         display: none !important;
@@ -67,6 +68,9 @@
     }
     div.live-realtime-container .live-top-card{
         min-height: initial !important;
+    }
+    div.live-realtime-container .live-top-card[data-v-78085b0f]{
+        margin: 0px;
     }
     /* 直播数据 */
     div.live-data-item[data-v-74603fb0]{
@@ -91,6 +95,17 @@
     {
         min-height: initial;
     }
+    /* 发送弹幕 */
+    div.live-message-container .live-message-input-container[data-v-2e776bc0]{
+        background: #5c8fff;
+        padding: 12px;
+    }
+    div.live-message-input-container textarea::placeholder{
+        color: white !important ;
+        font-weight: 800;
+        font-size: 17px;
+      }
+
 /* 直播结束 */
 div.live-basic-info-card .live-user-range-tip-wrap{
     display: none;
