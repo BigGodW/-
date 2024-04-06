@@ -40,6 +40,11 @@
     div.index__expandPanel___OilIc {
     display: none;
   }
+  /* 顶部边框调节 */
+  div.index__liveData___35828{
+    margin: 0;
+    padding: 0;
+  }
   /* 直播数据 */
   div.index__liveData___35828 {
     height: initial;
@@ -68,7 +73,7 @@
   }
   /* 数据 */
   div.index__liveData___35828 .index__container___77_eg .index__items___E_iC2 {
-    justify-content: initial;
+    justify-content: center;
     margin-top: 0px;
   }
   div.index__accumulateItem___mhV2F {
@@ -93,6 +98,13 @@
   /* 弹幕字体大小 */
   div.index-module__commentItem___2fLb5 {
     font-size: 17px;
+  }
+  /* 用户id样式 */
+  div.index-module__nickname___L6O_K{
+    padding: 3px 5px;
+    border-radius: 20px;
+    color: white;
+    background: #1966ff;
   }
   /* 弹幕框容器*/
   #app .index__liveControl___1C48H index__doudian___3SFGL .auxo-row {

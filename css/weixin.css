@@ -70,7 +70,7 @@
         min-height: initial !important;
     }
     div.live-realtime-container .live-top-card[data-v-78085b0f]{
-        margin: 0px;
+        margin-top: 10px;
     }
     /* 直播数据 */
     div.live-data-item[data-v-74603fb0]{
@@ -80,9 +80,9 @@
         padding: 0px 10px;
         background-color: initial;
     }
-    .live-realtime-container .finder-card .card-body .live-realtime-data[data-v-78085b0f]{
+    div.live-realtime-container .finder-card .card-body .live-realtime-data[data-v-78085b0f]{
         justify-content: center;
-        background-color: rgb(208, 209, 211);
+        overflow: hidden;
     }
     div.live-card-container:nth-child(1),
     div.live-card-container:nth-child(2)

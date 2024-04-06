@@ -41,7 +41,9 @@
     display: block;
     background-color: white;
   }
-  
+  div.live-panel--NqbCt .content-container--VMmvW{
+      padding: 0 !important;
+  }
   /* 弹幕框 */
   main.ant-layout-content.main--znBqD>div{
     display: block !important;
@@ -61,6 +63,16 @@
   /* 弹幕字体调整 */
   div.comment-items--Og8xq{
     font-size: 17px;
+  }
+  /* 用户id样式 */
+  div.comment-items--Og8xq .head--ZBFNP{
+    background-color: #5c8fff;
+    padding: 2px 10px;
+    background-color: rgb(255, 103, 52);
+    border-radius: 20px;
+  }
+  div.comment-items--Og8xq .head--ZBFNP .username--BCJbc{
+    color: white;
   }
   /* 直播间信息框 */
   div.index-module__titleRow___9mXFF,
