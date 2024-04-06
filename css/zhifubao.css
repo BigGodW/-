@@ -1,0 +1,31 @@
+@media screen and (max-width: 800px) {
+  /* 顶部导航 */
+  div.header___p21ju.bportalcomponents-header， {
+    display: none;
+  }
+
+  div.main___vdK2Y.bportalcomponents-main {
+    padding: 0px;
+  }
+
+  div.header___p21ju.bportalcomponents-header {
+    display: none;
+  }
+
+  div.ant-page-header.has-breadcrumb.ant-page-header-ghost {
+    display: none;
+  }
+
+  div.container___wwC0p {
+    display: none;
+  }
+  div.ant-spin-container > div.ant-pro-card:nth-child(2) {
+    display: none;
+  }
+  div.ant-pro-card-col.ant-pro-card-col-13 {
+    display: none;
+  }
+  div.ant-pro-card-col.ant-pro-card-col-4 {
+    display: none;
+  }
+}

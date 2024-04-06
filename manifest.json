@@ -22,6 +22,11 @@
             "matches":["https://login.kwaixiaodian.com/*","https://zs.kwaixiaodian.com/page/helper*"],
             "css":["css/kuaishou.css"],
             "all_frames":true
+        },
+        {
+            "matches":["https://b.alipay.com/page/live-console/*"],
+            "css":["css/zhifubao.css"],
+            "all_frames":true
         }
     ],
     "icons":{
