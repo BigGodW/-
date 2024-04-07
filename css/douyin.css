@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   /* 登录页 */
   /* 客服图标 底部信息 */
   div.index_DragController__BS7JL,
@@ -17,6 +17,7 @@
   /* 开播前 */
   .style_container-responsive__3rYw_.styles_responsive-wrapper__1qtNL {
     height: 100vh;
+    background-color: white;
   }
   div.index__livePrepare___3IVDl {
     display: none !important;

@@ -28,7 +28,7 @@
     justify-content: left !important;
   }
   div.empty-container {
-    min-height: 500px !important;
+    min-height: 400px !important;
     height: calc(100vh-70px) !important;
   }
   section.ant-layout.container--krNU5{
@@ -36,6 +36,7 @@
   }
   .layout--XS67m .container--krNU5 .main--znBqD {
     margin: 0px !important;
+    background-color: white;
   }
   div.container--YqRfb {
     display: block;

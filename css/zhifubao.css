@@ -1,31 +1,123 @@
-@media screen and (max-width: 800px) {
-  /* 顶部导航 */
-  div.header___p21ju.bportalcomponents-header， {
-    display: none;
-  }
-
-  div.main___vdK2Y.bportalcomponents-main {
-    padding: 0px;
-  }
-
+@media screen and (max-width: 600px) {
+  /* 导航栏 */
   div.header___p21ju.bportalcomponents-header {
     display: none;
   }
+  /* 顶部内边距 */
+  div.main___vdK2Y.bportalcomponents-main {
+    padding: 0;
+  }
 
+  /* 直播面包导航 */
   div.ant-page-header.has-breadcrumb.ant-page-header-ghost {
     display: none;
   }
-
+  /* 直播封面 标题 */
+  div.titAndActions___rQXag,
+  div.maskStyle___Ep4GC,
+  img.bigImg____grBG {
+    display: none;
+  }
+  /* 直播信息 */
+  div.addInfo___HGSHm,
+  div.heatingTime___dRufo {
+    display: none;
+  }
   div.container___wwC0p {
+    padding: 10px;
+  }
+  div.ant-pro-card-header.ant-pro-card-header-border {
     display: none;
   }
-  div.ant-spin-container > div.ant-pro-card:nth-child(2) {
+  /* 直播设置框 */
+  .ant-spin-container > div:nth-child(2) {
     display: none;
   }
-  div.ant-pro-card-col.ant-pro-card-col-13 {
+  /* 商品管理 */
+  .ant-pro-card-body > .ant-pro-card-col:nth-child(2) {
     display: none;
   }
-  div.ant-pro-card-col.ant-pro-card-col-4 {
+  /* 直播间营销工具 */
+  .ant-pro-card-body > .ant-pro-card-col:nth-child(3) {
     display: none;
   }
+  /* 处理滚动条 */
+  div.content___UwBDU.bportalcomponents-content {
+    min-width: initial !important;
+  }
+  div#bportal > div > .bportalcomponents-content {
+    min-width: initial !important;
+  }
+  footer {
+    display: none;
+  }
+  div.ant-pro-card-contain-card > .ant-pro-card-body {
+    display: block;
+  }
+  div.ant-pro-card-col-7 {
+    width: initial;
+  }
+  .ant-pro-card container___OO17u.ant-pro-card-contain-card.ant-pro-card-ghost,
+  .ant-pro-page-container-children-content {
+    margin: 0;
+  }
+  #mypaEntry {
+    display: none;
+  }
+  div.openBtn___hFEuM {
+    margin: 0px;
+  }
+  i.toggle___i1lhv.bportalcomponents-iconfontUrl.iconfontUrl___XckAh {
+    display: none;
+  }
+  /* 直播添加页 */
+  div.rightImgStyle___n3Pot {
+    display: none;
+  }
+  div.easy-ui-page-container
+    .ant-pro-page-container-ghost
+    .ant-pro-page-container-children-content,
+  div.ant-pro-page-container-children-content {
+    margin: 0px;
+  }
+/* 直播准备页 */
+/* 宽度滚动条 */
+div#bportal>div>.bportalcomponents-content{
+  min-width: none !important;
+}
+/* 无关数据 */
+div.ant4-alert.ant4-alert-warning.ant4-alert-no-icon.pageAlert___Nv62N{
+  display: none;
+}
+/* 创建直播： */
+div.titPart____7Lm2{
+  flex-direction: column;
+}
+/* 直播历史表 */
+
+span.spanColor___goI_B,.info___da99i{
+  display: none;
+}
+div.ant-table-thead>tr>th, .ant-table-tbody>tr>td, .ant-table tfoot>tr>th, .ant-table tfoot>tr>td {
+  padding: 0px !important;
+}
+div.ant-row.cardAllStyle___EemKj{
+  display: block;
+}
+div.ant-row.cardAllStyle___EemKj>div.ant-col.ant-col-12{
+  max-width: initial !important;
+}
+div.ant-row.cardAllStyle___EemKj>div.ant-col.ant-col-12:nth-child(2){
+  display: none;
+}
+tbody.ant-table-tbody> tr.ant-table-row.ant-table-row-level-0 td.ant-table-cell:nth-child(3){
+  display: none;
+}
+tbody.ant-table-tbody> tr.ant-table-row.ant-table-row-level-0 td.ant-table-cell:nth-last-child(1){
+  float: left;
+  width: 200px;
+}
+
+
+
 }

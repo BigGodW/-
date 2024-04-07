@@ -1,117 +1,131 @@
-@media screen and (max-width:800px){
-/* 登录页     */
-    div.desc,
-    div.tab-list,
-    .content,
-    .footer-wrap,
-    .login-bg video
-    {
-        display: none !important;
-    }
-    div.login-bg .platform-info{
-        padding: 0px;
-        bottom: 300px;
-        width: 100vh;
-    }
-    #app div.login-content{
-        margin: 20px;
-    }
-/* 直播页 */
-    #side-bar{
-        display: none;
-    }
-    div.container-center{
-        padding: 0px ;
-    }
-    div.app-body .container-wrap .container-center{
-        padding: 0px;
-        min-width: initial;
-        width: 100%;
-    }
-    .app-body.fold-sidebar #container-wrap{
-        width: 100%;
-    }
-    /* 直播标题 */
-    #app div.main-body-title{
-        display: none ;
-    }
-    div.main-body{
-        margin-top: 0px;
-    }
-    section#footer{
-        display: none;
-    }
-    div.app-body .container-wrap{
-        position: initial;
-    }
-    /* 不需要的节点 */
-    .container-center div.live-realtime-title,
-    .test-live-tips,
+@media screen and (max-width: 600px) {
+  /* 登录页     */
+  div.desc,
+  div.tab-list,
+  .footer-wrap,
+  .login-bg video {
+    display: none !important;
+  }
+  div.login-bg .platform-info {
+    padding: 0px;
+    bottom: 300px;
+    width: 100vh;
+  }
+  #app div.login-content {
+    margin: 20px;
+  }
+  /* 直播页 */
+  #side-bar {
+    display: none;
+  }
+  div.container-center {
+    padding: 0px;
+  }
+  div.app-body .container-wrap .container-center {
+    padding: 0px;
+    min-width: initial;
+    width: 100%;
+  }
+  .app-body.fold-sidebar #container-wrap {
+    width: 100%;
+  }
+  /* 直播标题 */
+  #app div.main-body-title {
+    display: none;
+  }
+  div.main-body {
+    margin-top: 0px;
+  }
+  section#footer {
+    display: none;
+  }
+  div.app-body .container-wrap {
+    position: initial;
+  }
+  /* 不需要的节点 */
+  div.live-realtime-title-duration {
+    display: none;
+  }
+  div.live-realtime-container .live-realtime-title .live-realtime-title-left[data-v-78085b0f],
+  .live-realtime-container .live-realtime-title .live-realtime-title-right .pause-live-btn[data-v-78085b0f]
+  {
+    display: none;
+  }
+  .live-realtime-container .live-realtime-title[data-v-78085b0f]{
+    height: 0;
+  }
+  .live-realtime-container .live-realtime-title .live-realtime-title-right .end-live-btn[data-v-78085b0f] button{
+    position: fixed;
+    right: 20px;
+    top: 60px
+  }
+
+  .test-live-tips,
     /* 直播视频框 */
     .live-player-container,
     .live-basic-info,
     div.weui-desktop-popover__wrp:nth-child(6),
-    div.live-realtime-container .finder-card .card-body .live-realtime-data .dashboard-entry[data-v-78085b0f]
-    {
-        display: none !important;
-    }
-    /* 调整边距 */
-    .container-center div.live-realtime-container,
-    div.finder-card.live-stream-info,
-    div.live-realtime-container .finder-card,
-    div.live-realtime-container .finder-card .card-body .live-realtime-data,
-    div.live-realtime-container .live-realtime-interactive-part[data-v-78085b0f],
-    div.live-realtime-container .live-realtime-interactive-part[data-v-78085b0f] .live-card-container
-    {
-        padding: 0 !important;
-        margin: 0 !important;
-    }
-    div.live-realtime-container .live-top-card{
-        min-height: initial !important;
-    }
-    div.live-realtime-container .live-top-card[data-v-78085b0f]{
-        margin-top: 10px;
-    }
-    /* 直播数据 */
-    div.live-data-item[data-v-74603fb0]{
-        width: 100%;
-        height: initial;
-        margin: 0;
-        padding: 0px 10px;
-        background-color: initial;
-    }
-    div.live-realtime-container .finder-card .card-body .live-realtime-data[data-v-78085b0f]{
-        justify-content: center;
-        overflow: hidden;
-    }
-    div.live-card-container:nth-child(1),
-    div.live-card-container:nth-child(2)
-    {
-        display: none ;
-    }
-    /* 弹幕框 */
-    div.live-message-container[data-v-2e776bc0],
-    div.live-card-container[data-v-7802e969]
-    {
-        min-height: initial;
-    }
-    /* 发送弹幕 */
-    div.live-message-container .live-message-input-container[data-v-2e776bc0]{
-        background: #5c8fff;
-        padding: 12px;
-    }
-    div.live-message-input-container textarea::placeholder{
-        color: white !important ;
-        font-weight: 800;
-        font-size: 17px;
-      }
-
-/* 直播结束 */
-div.live-basic-info-card .live-user-range-tip-wrap{
+    div.live-realtime-container .finder-card .card-body .live-realtime-data .dashboard-entry[data-v-78085b0f] {
+    display: none !important;
+  }
+  /* 调整边距 */
+  .container-center div.live-realtime-container,
+  div.finder-card.live-stream-info,
+  div.live-realtime-container .finder-card,
+  div.live-realtime-container .finder-card .card-body .live-realtime-data,
+  div.live-realtime-container .live-realtime-interactive-part[data-v-78085b0f],
+  div.live-realtime-container
+    .live-realtime-interactive-part[data-v-78085b0f]
+    .live-card-container {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  div.live-realtime-container .live-top-card {
+    min-height: initial !important;
+  }
+  div.live-realtime-container .live-top-card[data-v-78085b0f] {
+    margin-top: 10px;
+  }
+  /* 直播数据 */
+  div.live-data-item[data-v-74603fb0] {
+    width: 100%;
+    height: initial;
+    margin: 0;
+    padding: 0px 10px;
+    background-color: initial;
+  }
+  div.live-realtime-container
+    .finder-card
+    .card-body
+    .live-realtime-data[data-v-78085b0f] {
+    justify-content: center;
+    overflow: hidden;
+  }
+  div.live-card-container:nth-child(1),
+  div.live-card-container:nth-child(2) {
     display: none;
-}
-div.live-basic-info-card .submit-button-row{
-    right: 56px;
-}
+  }
+  /* 弹幕框 */
+  div.live-message-container[data-v-2e776bc0],
+  div.live-card-container[data-v-7802e969] {
+    min-height: initial;
+  }
+  /* 发送弹幕 */
+  div.live-message-container .live-message-input-container[data-v-2e776bc0] {
+    background: #5c8fff;
+    padding: 12px;
+  }
+  div.live-message-input-container textarea::placeholder {
+    color: white !important ;
+    font-weight: 800;
+    font-size: 17px;
+  }
 
+  /* 直播结束 */
+  div.live-basic-info-card .live-user-range-tip-wrap {
+    display: none;
+  }
+  div.live-basic-info-card .submit-button-row {
+    right: 56px;
+  }
 }
