@@ -83,9 +83,7 @@
   div.live-realtime-container .live-top-card {
     min-height: initial !important;
   }
-  div.live-realtime-container .live-top-card[data-v-78085b0f] {
-    margin-top: 10px;
-  }
+  
   /* 直播数据 */
   div.live-data-item[data-v-74603fb0] {
     width: 100%;
@@ -119,6 +117,10 @@
     color: white !important ;
     font-weight: 800;
     font-size: 17px;
+  }
+  /* 直播时间 */
+  div.live-realtime-title-left,div.live-realtime-title-duration{
+    display: none !important;
   }
 
   /* 直播结束 */
