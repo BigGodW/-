@@ -122,6 +122,9 @@
   div.live-realtime-title-left,div.live-realtime-title-duration{
     display: none !important;
   }
+  div.live-realtime-container div.live-top-card[data-v-78085b0f]{
+    margin: 0;
+  }
 
   /* 直播结束 */
   div.live-basic-info-card .live-user-range-tip-wrap {

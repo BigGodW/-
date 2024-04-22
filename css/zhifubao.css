@@ -117,6 +117,27 @@ tbody.ant-table-tbody> tr.ant-table-row.ant-table-row-level-0 td.ant-table-cell:
   float: left;
   width: 200px;
 }
+/* 输入框定位 */
+div.item___wUkBc .ant-pro-card-body{
+  max-height: initial;
+}
+div.bodyContainer___HbZcd {
+  height: 75vh;
+}
+div.cmtTextArea___Mklmv {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 97vw;
+  padding: 10px;
+}
+:root button.cmtBtn___K7NWO {
+  right: 20px;
+  bottom: 20px;
+}
+.ant-pro-card.container___OO17u.ant-pro-card-contain-card.ant-pro-card-ghost{
+  margin: 0 !important;
+}
 
 
 
