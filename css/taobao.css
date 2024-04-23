@@ -1,0 +1,70 @@
+
+
+@media screen and (max-width:600px){
+    section.header--header--2UJmMyO{
+      display: none;
+    }
+    section.basic--wrapper--3yRQa5k{
+      padding: 0;
+      min-width: initial;
+    }
+    aside.aside-menu--aside--3xsydod.lc-aside{
+      display: none;
+    }
+    header.tdp-header,
+    div.tbla-card.tac-commodity.tac-module,
+    div.tac-resize-handler-ResizeHandleOuter
+    {
+      display: none;
+    }
+    div.tac-module-scaffold-main{
+      width: 100vw;
+    }
+    div.tbla-card.tac-remind.tac-module,
+    div.tbla-card.tac-toolbox.tac-module
+    {
+      display: none;
+    }
+    /* 弹幕框 */
+    div.tbla-card.tac-comment.tac-module{
+      height: 95vh !important;
+    }
+    /* 直播数据 */
+    div.tbla-card.tac-data-center.tac-module{
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+    div.tbla-card div.tbla-card-body{
+      padding: 0 !important;
+    }
+    div.tbla-detail-data-fields-container{
+      width: 100vw;
+    }
+    section.tbla-detail-data{
+      header{
+        display: none;
+      }
+    }
+    div.tbla-detail-data-fields-container{
+      height: initial;
+    }
+    div.tbla-detail-data-field-item{
+      margin: 0;
+    }
+    
+    div.tbla-detail-data-fields-container{
+      grid-gap: initial;
+      gap: initial;
+    }
+    div.tbla-detail-data-field-item-right{
+      display: none;
+    }
+    
+    div.tac-module-scaffold-aside{
+      flex:initial !important;
+      width:100%;
+      padding-top:80px
+    }
+  
+  }

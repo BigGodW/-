@@ -27,6 +27,11 @@
             "matches":["https://b.alipay.com/page/live-console/*"],
             "css":["css/zhifubao.css"],
             "all_frames":true
+        },
+        {
+            "matches":["https://liveplatform.taobao.com/*"],
+            "css":["css/taobao.css"],
+            "all_frames":true
         }
     ],
     "icons":{
